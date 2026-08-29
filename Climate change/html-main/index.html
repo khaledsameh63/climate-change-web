@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+    <title>Climate Change</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <img
+            class="logo"
+            src="images/logo.png"
+            alt="Climate Change Logo"
+        >
+
+        <nav class="header-links">
+            <a href="index.html" >Home</a>
+            <a href="causes.html">Causes</a>
+            <a href="solutions.html">Solutions</a>
+        </nav>
+
+         <button id="themeButton" class="theme-button">
+        🌙
+    </button>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="landing-page">
+
+        <div class="landing-page-left-section">
+
+            <span>CLIMATE CHANGE</span>
+
+            <h1>
+                Our Planet.<br>
+                Our Future.
+            </h1>
+
+            <p>
+                Climate change is real, and it's happening faster
+                than we think. Together, we can make a difference.
+            </p>
+
+            <a href="solutions.html" class="btn">
+                Learn More
+            </a>
+
+        </div>
+
+
+        <div class="landing-page-image-container">
+
+            <img
+                src="images/hero.jpg"
+                alt="Natural landscape representing our planet"
+            >
+
+        </div>
+
+    </section>
+
+<!-- WEATHER -->
+
+<section class="weather-section">
+
+    <span>CHECK THE WEATHER</span>
+
+    <h2>Weather Around The World</h2>
+
+    <p>
+        Search for any city and discover its current weather.
+    </p>
+
+    <div class="weather-search">
+
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name..."
+        >
+
+        <button type="button" id="searchButton">
+            Search
+        </button>
+
+    </div>
+
+    <div class="temperature-buttons">
+
+        <button id="celsiusButton" class="unit-button active-unit">
+            °C
+        </button>
+
+        <button id="fahrenheitButton" class="unit-button">
+            °F
+        </button>
+
+    </div>
+
+    <div id="weatherResult" class="weather-result">
+
+        <p class="weather-message">
+            Enter a city to see the weather.
+        </p>
+
+    </div>
+
+</section>
+
+    <!-- CLEAN ENERGY -->
+    <section class="trending-container">
+
+        <span>TAKE ACTION</span>
+
+        <div class="trending-header">
+
+            <h2>Clean Energy</h2>
+
+            <a href="solutions.html" class="btn">
+                View All
+            </a>
+
+        </div>
+
+
+        <div class="trending-cards">
+
+            <!-- CARD 1 -->
+            <div class="card">
+
+                <img
+                    class="thumb"
+                    src="images/solar-panels.jpg"
+                    alt="Solar panels"
+                >
+
+                <div class="card-info">
+
+                    <div class="card-name">
+                        <p>Renewable Energy</p>
+                        <h3>Solar Energy</h3>
+                    </div>
+
+                    <a href="solutions.html" class="card-button">
+                        →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CARD 2 -->
+            <div class="card">
+
+                <img
+                    class="thumb"
+                    src="images/wind-energy.jpg"
+                    alt="Wind turbines"
+                >
+
+                <div class="card-info">
+
+                    <div class="card-name">
+                        <p>Renewable Energy</p>
+                        <h3>Wind Energy</h3>
+                    </div>
+
+                    <a href="solutions.html" class="card-button">
+                        →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CARD 3 -->
+            <div class="card">
+
+                <img
+                    class="thumb"
+                    src="images/electric-car.jpg"
+                    alt="Electric car"
+                >
+
+                <div class="card-info">
+
+                    <div class="card-name">
+                        <p>Sustainable Transport</p>
+                        <h3>Electric Vehicles</h3>
+                    </div>
+
+                    <a href="solutions.html" class="card-button">
+                        →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CARD 4 -->
+            <div class="card">
+
+                <img
+                    class="thumb"
+                    src="images/recycling.jpg"
+                    alt="Recycling"
+                >
+
+                <div class="card-info">
+
+                    <div class="card-name">
+                        <p>Take Action</p>
+                        <h3>Recycling</h3>
+                    </div>
+
+                    <a href="solutions.html" class="card-button">
+                        →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta">
+
+        <div class="cta-content">
+
+            <span>OUR FUTURE</span>
+
+            <h2>
+                Together, We Can Make a Difference
+            </h2>
+
+            <p>
+                Small actions can create a big impact.
+                Learn how you can help protect our planet.
+            </p>
+
+            <a href="solutions.html" class="btn">
+                Discover Solutions
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-section">
+
+            <h3>Climate Change</h3>
+
+            <p>
+                Learn about climate change, its causes,
+                effects, and possible solutions.
+            </p>
+
+        </div>
+
+
+        <div class="footer-section">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="causes.html">Causes</a>
+            <a href="solutions.html">Solutions</a>
+
+        </div>
+
+
+        <div class="footer-section">
+
+            <h3>Contact</h3>
+
+            <p>Email: climate@example.com</p>
+            <p>Climate Change Project</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
