@@ -1,0 +1,559 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  background-color: #003B2F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.header-links a {
+  color: #F7F8F5;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.header-links a:hover {
+  background-color: #65B32E;
+}
+
+.header-links a.active {
+  background-color: #65B32E;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.btn {
+  background-color: #65B32E;
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: #F7F8F5;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #4F9225;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.landing-page {
+  background-color: #003B2F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  color: #F7F8F5;
+  border-radius: 0 0 50px 50px;
+}
+
+.landing-page-left-section {
+  width: 400px;
+}
+
+.landing-page-left-section span {
+  color: #65B32E;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.landing-page-left-section h1 {
+  font-size: 50px;
+  margin: 15px 0;
+}
+
+.landing-page-left-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #DDE3DE;
+}
+
+.landing-page-image-container img {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+
+/* =========================
+   CLEAN ENERGY
+========================= */
+
+.trending-container {
+  padding: 25px 50px;
+}
+
+.trending-container > span {
+  color: #65B32E;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending-header h2 {
+  margin-top: 0;
+}
+
+.trending-cards {
+  display: flex;
+  gap: 12px;
+}
+
+.card {
+  width: 280px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card .thumb {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+
+.card-name p {
+  color: #65B32E;
+  font-size: 13px;
+  margin: 0;
+}
+
+.card-name h3 {
+  margin: 5px 0 10px;
+  color: #1E2A24;
+}
+
+.card-button {
+  text-decoration: none;
+  background-color: #65B32E;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.cta {
+  margin: 50px;
+  padding: 70px 30px;
+  background-color: #003B2F;
+  border-radius: 40px;
+  text-align: center;
+  color: #F7F8F5;
+}
+
+.cta-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.cta-content span {
+  color: #65B32E;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cta-content h2 {
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.cta-content p {
+  color: #DDE3DE;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.cta .btn {
+  padding: 12px 25px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  background-color: #003B2F;
+  color: #F7F8F5;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #65B32E;
+}
+
+.footer-section p {
+  color: #DDE3DE;
+  line-height: 1.6;
+}
+
+.footer-section a {
+  display: block;
+  color: #F7F8F5;
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.footer-section a:hover {
+  color: #65B32E;
+}
+
+/* =========================
+   WEATHER
+========================= */
+
+.weather-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.weather-section > span {
+  color: #65B32E;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.weather-section h2 {
+  color: #1E2A24;
+  font-size: 36px;
+  margin: 15px 0 10px;
+}
+
+.weather-section > p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.weather-search {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.weather-search input {
+  width: 300px;
+  padding: 12px 15px;
+  border: 2px solid #DDE3DE;
+  border-radius: 15px;
+  font-size: 16px;
+  outline: none;
+}
+
+.weather-search input:focus {
+  border-color: #65B32E;
+}
+
+.weather-search button {
+  background-color: #65B32E;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-search button:hover {
+  background-color: #4F9225;
+}
+
+.weather-result {
+  max-width: 450px;
+  margin: auto;
+  background-color: #F7F8F5;
+  border-radius: 25px;
+  padding: 30px;
+  min-height: 100px;
+}
+
+.weather-message {
+  color: #666;
+}
+
+.weather-city {
+  color: #003B2F;
+  font-size: 28px;
+  margin: 0 0 10px;
+}
+
+.weather-temperature {
+  color: #65B32E;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.weather-description {
+  color: #555;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  color: #1E2A24;
+}
+
+.weather-error {
+  color: #D32F2F;
+  font-weight: 700;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  /* HEADER */
+
+  .header {
+    padding: 10px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+.header-links {
+    display: none;
+}
+.weather-section {
+  padding: 40px 20px;
+}
+
+.weather-section h2 {
+  font-size: 30px;
+}
+
+.weather-search {
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-search input {
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+}
+
+.weather-search button {
+  width: 150px;
+}
+
+.weather-result {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.weather-details {
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+  /* HERO */
+
+  .landing-page {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .landing-page-left-section {
+    width: 100%;
+  }
+
+  .landing-page-left-section h1 {
+    font-size: 40px;
+  }
+
+  .landing-page-image-container img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+
+  /* CLEAN ENERGY */
+
+  .trending-container {
+    padding: 25px 20px;
+  }
+
+  .trending-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+
+  /* CTA */
+
+  .cta {
+    margin: 30px 20px;
+    padding: 50px 20px;
+  }
+
+  .cta-content h2 {
+    font-size: 30px;
+  }
+
+
+  /* FOOTER */
+
+  .footer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+}
+/* =========================
+   MOBILE MENU BUTTON
+========================= */
+
+.menu-button {
+  display: none;
+  background-color: #65B32E;
+  color: #F7F8F5;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+
+/* =========================
+   BACK TO TOP
+========================= */
+
+.back-to-top {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #65B32E;
+  color: #FFFFFF;
+
+  font-size: 22px;
+  cursor: pointer;
+
+  display: none;
+
+  z-index: 1000;
+}
+
+.back-to-top.show {
+  display: block;
+}
+
+.back-to-top:hover {
+  background-color: #4F9225;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .header {
+    position: relative;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .header-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .header-links.show {
+    display: flex;
+  }
+
+}
